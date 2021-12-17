@@ -8,8 +8,7 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello!<br />
-        I'm Vimal<br />
+        Hi! I'm Vimal<br />
         Full-stack developer
       </SectionTitle>
       <SectionText>

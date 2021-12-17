@@ -26,8 +26,9 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '55px' : '45px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
@@ -177,7 +178,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #DD5E89 0%, #f7bb97 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -209,10 +210,11 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #f7bb97 0%, #DD5E89 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
+  font-family:cursive, Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
   font-weight: 600;
   align-items: center;
   justify-content: center;
@@ -221,13 +223,18 @@ export const ButtonFront = styled.button`
 
   &:hover {
     opacity: 0;
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #f7bb97 0%, #DD5E89 100%)'};
   }
   &:focus {
     outline: none;
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #ffb88c 0%, #DE6262 100%)'};
+
   }
   &:active {
     opacity: 1;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #f7bb97 0%, #DD5E89 100%)'};
+
   }
 
   &:disabled{
