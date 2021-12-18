@@ -10,11 +10,16 @@ const Header = () =>  (
     <Div1>
       <Link href='/'>
         <a style={{display:"flex", alignItems:"center", color:"white",marginBottom:'20px'}}>
-          <DiAtom size="3rem"/> <Span>Portfolio</Span>
+          <DiAtom size="3rem"/> <Span>Vimal</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
+      <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -23,11 +28,6 @@ const Header = () =>  (
       <li>
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>

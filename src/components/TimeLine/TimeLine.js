@@ -43,13 +43,16 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id=''>
+    <Section id='about'>
+      <SectionDivider />
+      <br/>
+      <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       I am a full-stack web developer with a background in the tech industry working as a
       Business analyst and Test engineer. Building applications and problem solving fills me with joy which has driven me to make a career change into
       software development. I am a graduate of Enspiral Dev Academy software development school, with over 1000 hours of coding
-      experience under my belt
+      experience under my belt.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -113,7 +116,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      
     </Section>
   );
 };

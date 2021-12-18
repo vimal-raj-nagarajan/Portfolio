@@ -12,7 +12,7 @@ const Hero = () => (
         Full-stack developer
       </SectionTitle>
       <SectionText>
-      My main goal is to have a positive impact on whatever project I'm involved in.
+      I have a passion for creating robust web applications using latest technologies. 
       </SectionText>
       <Button onClick={() => window.location = 'mailto:vimalraj.nagarajan@gmail.com'}>Contact Me</Button>
     </LeftSection>

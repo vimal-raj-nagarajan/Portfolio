@@ -20,7 +20,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           {/* <Slogan></Slogan> */}
-          <Slogan>Copyright © 2021 - Created by Vimal with thanks to JavaScript Mastery</Slogan>
+          <Slogan>Copyright © 2021 - Created by Vimal with thanks to MOOCs</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/vimal-raj-nagarajan" target="_blank">
