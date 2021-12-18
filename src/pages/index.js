@@ -14,9 +14,9 @@ const Home = () => {
         <Hero />
         <SVGFile />
       </Section>
+      <Timeline />
       <Projects />
       <Technologies />
-      <Timeline />
       <Acomplishments />
     </Layout>
   );
