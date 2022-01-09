@@ -10,11 +10,11 @@ export const projects = [
   },
   {
     title: 'Dream Fest',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description:"DreamFest app allows users to add events and edit events and event locations. The updates and new entries persists in the SQLite database. Showcases competencies in knex, entity relationship, database creation and data seeding.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    tags: ['SQLite', 'Knex','Node', 'Express'],
     source: 'https://github.com/vimal-raj-nagarajan',
-    visit: 'https://google.com',
+    visit: 'https://github.com/vimal-raj-nagarajan',
     id: 1,
   },
   {
