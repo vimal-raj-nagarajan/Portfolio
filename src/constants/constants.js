@@ -1,11 +1,11 @@
 export const projects = [
   {
     title: 'Pupparazzi',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "Pupparazzi is an application to edit and add new puppies to exsiting list of puppies. The updates and new entries persists in the file. Showcases competencies in Express router, callback functions, readFile and writeFile",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      tags: ['Node', 'Express', 'Javascript'],
     source: 'https://github.com/vimal-raj-nagarajan',
-    visit: 'https://google.com',
+    visit: 'https://github.com/vimal-raj-nagarajan',
     id: 0,
   },
   {
